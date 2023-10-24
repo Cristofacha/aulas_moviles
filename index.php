@@ -6,10 +6,9 @@ include("mod_coord.php");
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Tu Sitio Web</title>
-    <!-- Agrega enlaces a los archivos CSS de Bootstrap -->
+    <title>Aulas moviles</title>
+    <link rel="icon" href="img/ico.png">
 	<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
