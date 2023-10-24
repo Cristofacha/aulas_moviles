@@ -8,11 +8,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["id"])) {
     $query = "DELETE FROM marcadores WHERE id = ?";
     
     $statement = $conexion->prepare($query);
-    $statement->bind_param("i", $id); // "i" indica un entero
+    $statement->bind_param("i", $id);
     
     if ($statement->execute()) {
-        echo "Registro eliminado con éxito";
+        // Si la consulta sale bien devuelve a la lista de marcadores
+        header("Location: marcadores.php");
+        exit;
     } else {
+        // Si la consulta sale mal muestra el error
         echo "Error al eliminar el registro: " . $conexion->error;
     }
 

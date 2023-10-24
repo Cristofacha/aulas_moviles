@@ -7,12 +7,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $select3Value = $_POST["select3"];
     $select4Value = $_POST["select4"];
 
-    // Realiza operaciones con los valores de los selectores aquí
-    /*$queryFiltro = "SELECT nombre FROM marcadores WHERE 
-                                                    tipo_escuelas = ('$select1Value') AND
-                                                    oferta_escuelas = ('$select2Value') AND
-                                                    jurisdiccion_escuelas = ('$select3Value') AND
-                                                    localidad_escuelas = ('$select4Value')";*/
     // Inicializa la condición SQL
     $condicion = "";
 
@@ -52,6 +46,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 $resultados[] = $fila['nombre'];
             }
             // $resultados contendrá los nombres de los marcadores que cumplen con las condiciones
+
             // Convierte los resultados en formato JSON
             $json_resultados = json_encode($resultados);
 
