@@ -66,6 +66,8 @@ Aqui hay una lista de todos los marcadores y se pueden eliminar de la BD
 
 1. Barra de busqueda para buscar marcadores por nombre
 2. Sistema de edicion de marcadores
+3. Agregado de marcadores para albergues
+4. Mejorar la fiabilidad a dispositivos mobiles
 
 ## Creditos
 
