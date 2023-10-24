@@ -14,7 +14,7 @@ include("connection.php");
 
     <!-- Navbar  -->
     <nav class="navbar navbar-expand-lg" style="background-color: #d9dadb;">
-        <div class="navbar-brand" style="color: #0E68AF;">Aulas moviles - Admin</div>
+        <div style="width: 300px;"><img src="img/inetIcon.png" alt="INET" style="width: 100%;"></div>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
         </button>

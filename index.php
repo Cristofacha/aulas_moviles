@@ -12,7 +12,7 @@ include("mod_coord.php");
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script> var keyVar = "[INSERTE_SU_KEY_AQUI]";</script>
+    <script> var keyVar = "[TU_KEY_API_AQUI]";</script>
     <script type="module">
         // Inicia el mapa 
             
@@ -213,11 +213,11 @@ include("mod_coord.php");
 
     <!-- Navbar  -->
     <nav class="navbar navbar-expand-lg" style="background-color: #d9dadb;">
-        <div class="navbar-brand" style="color: #0E68AF;">Aulas moviles</div>
+        <div style="width: 300px;"><img src="img/inetIcon.png" alt="INET" style="width: 100%;"></div>
+
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
         </button>
-       
     </nav>
     <!-- //Navbar  -->
 
@@ -229,6 +229,12 @@ include("mod_coord.php");
         <div class="row mt-2" id="filtroOptions">
             <!-- Filtros -->
             <div class="col-lg-4" style="background-color: #d9dadb; border-radius: 5px 5px 5px 5px;">
+                <br>
+                <h2 style="color: #0E68AF;">
+                    Aulas moviles
+                </h2>
+
+                <br>
                 <br>
                 <h3 style="color: #0E68AF;">Filtros</h3>
                 <div class="form-group">
