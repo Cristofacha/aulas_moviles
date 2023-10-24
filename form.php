@@ -5,7 +5,7 @@ include("connection.php");
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Aulas moviles</title>
+    <title>Aulas móviles</title>
     <link rel="icon" href="img/ico.png">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -41,7 +41,7 @@ include("connection.php");
 
             <!-- Input de nombres del aula movil -->
             <div class="form-group">
-                <label style="color: #0E68AF;" for="nombre">Nombre del Aula Movil:</label>
+                <label style="color: #0E68AF;" for="nombre">Nombre del Aula Móvil:</label>
                 <input type="text" class="form-control" id="nombre" name="nombre" required>
             </div>
             <!-- /Input de nombres del aula movil -->

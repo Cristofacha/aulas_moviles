@@ -6,7 +6,7 @@ include("mod_coord.php");
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Aulas moviles</title>
+    <title>Aulas móviles</title>
     <link rel="icon" href="img/ico.png">
 	<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -59,7 +59,7 @@ include("mod_coord.php");
 
                 // Declarar el nombre de la ubicación de los marcadores
                 var nombreUbicacion = '<?php echo $fila['nombre_escuelas']; ?>';
-                var nombreUbicacion = '<?php echo $fila['direccion_escuelas']; ?>, <?php echo $fila['jurisdiccion_escuelas']; ?>';
+                var nombreUbicacion = '<?php echo $fila['direccion_escuelas']; ?>, <?php echo $fila['localidad_escuelas']; ?>, <?php echo $fila['jurisdiccion_escuelas']; ?>';
 
                 // Crear un objeto de geocodificación inversa
                 var geocoder = new google.maps.Geocoder();
@@ -231,7 +231,7 @@ include("mod_coord.php");
             <div class="col-lg-4" style="background-color: #d9dadb; border-radius: 5px 5px 5px 5px;">
                 <br>
                 <h2 style="color: #0E68AF;">
-                    Aulas moviles
+                    Aulas móviles
                 </h2>
 
                 <br>
