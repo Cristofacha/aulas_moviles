@@ -1,6 +1,6 @@
-# Sistema de Gestión de Marcadores
+# Sistema de Gestión de Aulas Móviles
 
-Este repositorio contiene un sistema que permite a los administradores crear y borrar marcadores en un mapa, y a los usuarios ver esos marcadores en el mapa y filtrarlos según varios parámetros.
+Este repositorio contiene un sistema que permite gestionar las aulas móviles del pais y verlas en el mapa, ademas de permitir filtrarlas por distintos parametros.
 
 ## Contenido del Repositorio
 
