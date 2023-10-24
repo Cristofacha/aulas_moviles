@@ -68,6 +68,7 @@ Aqui hay una lista de todos los marcadores y se pueden eliminar de la BD
 2. Sistema de edicion de marcadores
 3. Agregado de marcadores para albergues
 4. Mejorar la fiabilidad a dispositivos mobiles
+5. Limitar la creacion de marcadores con nombres iguales
 
 ## Creditos
 
